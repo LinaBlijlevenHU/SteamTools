@@ -26,6 +26,7 @@ Negatieve tekst: compound score <= -0.05
 
 @author Lina Blijleven      <lina.blijleven@hu.nl>
 """
+# Met deze regel importeer je mijn helperklasse
 from SentimentAnalyser import SentimentAnalyser
 
 # Enkel zinnetje om te analyseren
