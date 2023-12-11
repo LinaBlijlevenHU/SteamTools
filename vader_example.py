@@ -26,7 +26,7 @@ Negatieve tekst: compound score <= -0.05
 
 @author Lina Blijleven      <lina.blijleven@hu.nl>
 """
-from VaderSentiment import VaderSentiment
+from SentimentAnalyser import SentimentAnalyser
 
 # Enkel zinnetje om te analyseren
 txt = "Ik ben een zeer verdrietig zinnetje :("
@@ -53,7 +53,7 @@ sentences = ["VADER is smart, handsome, and funny.",  # positive sentence exampl
              ]
 
 # Bouw de analyser; dit moeten we even doen ter voorbereiding!
-analyser = VaderSentiment()
+analyser = SentimentAnalyser()
 
 # Analyseer één tekst (analyse_sentiment)
 result = analyser.analyse_sentiment(txt)

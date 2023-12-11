@@ -1,5 +1,5 @@
 """
-VaderSentiment.py
+SentimentAnalyser.py
 
 Deze file bevat functies om je te helpen gebruik te maken van de VaderSentiment-library.
 Hiermee kun je stukken tekst analyseren, om in te schatten of de tekst positief, neutraal of
@@ -12,7 +12,7 @@ Bron VaderSentiment: https://github.com/cjhutto/vaderSentiment
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 
-class VaderSentiment:
+class SentimentAnalyser:
     """
     Class implementation
     """
