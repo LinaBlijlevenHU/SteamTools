@@ -32,7 +32,8 @@ de data niet 100% representatief is voor alle Steam-gebruikers.
   'discount': '0', 
   'ccu': 11917, 
   'languages': 'English, French, German, Italian, Spanish - Spain, Simplified Chinese, Traditional Chinese, Korean', 'genre': 'Action',
-  'tags': {'Action': 5454, 'FPS': 4880, 'Multiplayer': 3431, 'Shooter': 3381, 'Classic': 2812, 'Team-Based': 1886, 'First-Person': 1724, 'Competitive': 1623, 'Tactical': 1361, "1990's": 1220, 'e-sports': 1208, 'PvP': 898, 'Old School': 793, 'Military': 641, 'Strategy': 624, 'Survival': 306, 'Score Attack': 292, '1980s': 272, 'Assassin': 231, 'Nostalgia': 167}}
+  'tags': {'Action': 5454, 'FPS': 4880, 'Multiplayer': 3431, 'Shooter': 3381, 'Classic': 2812, 'Team-Based': 1886, 'First-Person': 1724, 'Competitive': 1623, 'Tactical': 1361, "1990's": 1220, 'e-sports': 1208, 'PvP': 898, 'Old School': 793, 'Military': 641, 'Strategy': 624, 'Survival': 306, 'Score Attack': 292, '1980s': 272, 'Assassin': 231, 'Nostalgia': 167}
+}
 ```
 
 ## VaderSentiment
