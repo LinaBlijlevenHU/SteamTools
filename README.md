@@ -2,6 +2,10 @@
 
 Deze repository bevat een aantal voorbeelden en helper-modules voor project Steam. Elke tool wordt even apart behandeld in deze README, zodat je zelf de onderdelen uit kunt kiezen die je wil gebruiken.
 
+## Data naar de PI sturen
+
+Om data van een API naar je RPI Pico te krijgen, moet je via seriële verbinding data naar je Pi sturen. Pepijn heeft hier een scriptje `serial_data_sending.py` voor geschreven.
+
 ## SteamSpy
 
 Dit is de API/website waar de data in het steam.json-bestand vandaan komt. Je kunt deze zelf ook benaderen voor real-time data.
