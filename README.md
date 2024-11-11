@@ -24,15 +24,9 @@ mogelijk in overleg met je docenten.
 
 Zie ook het [startersproject voor Flask](https://github.com/LinaBlijlevenHU/flask-base-project) (opgezet door Lina).
 
-## Data naar de PI sturen
+## Software Development
 
-De Raspberry PI Pico W heeft ook wi-fi, maar dit geldt niet voor 
-elke versie van de RPI. Om data van een API naar je RPI Pico 
-zonder wi-fi te krijgen, moet je via seriële verbinding data 
-naar je Pi sturen. Pepijn heeft hier een scriptje 
-`serial_data_sending.py` voor geschreven, dat je ter inspiratie kan gebruiken.
-
-## SteamSpy
+### SteamSpy API
 
 Dit is de API/website waar de data in het steam.json-bestand 
 vandaan komt. Je kunt deze zelf ook benaderen voor real-time data, hoewel 
@@ -68,7 +62,28 @@ de data niet 100% representatief is voor alle Steam-gebruikers.
 }
 ```
 
-## VaderSentiment
+### Vormgeving
+
+- Met [Figma](https://www.figma.com/) kun je een ontwerp maken voor de applicatie. Dit kan helemaal gratis en de 
+styling kan ook geëxporteerd worden naar HTML/CSS of zelfs TKinter.
+- De [Bulma](https://bulma.io/) library bevat een aantal voorgestijlde 
+componenten, die je kunt inzetten binnen je eigen project. Dat scheelt eventueel wat CSS schrijven.
+
+## Cybersecurity & Cloud
+
+Als student krijg je vaak toegang tot extra tools om mee te oefenen. Bij [Azure](https://azure.microsoft.com/en-us/free/students/) 
+kun je bijvoorbeeld $100 gratis credit krijgen. Op het Azure-platform kun je niet alleen databases hosten, maar 
+bijvoorbeeld ook webapplicaties (als jullie hiervoor gekozen hebben).
+
+## Artificial Intelligence
+
+### Taalmodel met GPT4All
+
+Het is ook mogelijk om gebruik te maken van een taalmodel binnen je applicatie. De makkelijkste 
+manier is om daarvoor een lokale API te draaien, dit kan onder andere met GPT4All. Zie hiervoor de [GPT4All instructies](AI/GPT4AllHelper) 
+in het AI-mapje.
+
+### Sentiment Analyse met VaderSentiment
 
 Dit is een AI [library](https://github.com/cjhutto/vaderSentiment) die helpt met het inschatten van het sentiment van teksten.
 
@@ -96,10 +111,12 @@ of een geplaatste opmerking positief of negatief is.
 }
 ```
 
-## Andere Bronnen
+## Technische Informatica
 
-### Styling
+### Communicatie met de pi zonder wi-fi
 
-- De [Bulma](https://bulma.io/) library bevat een aantal voorgestijlde 
-componenten, die je kunt inzetten binnen je eigen project.
-
+De Raspberry PI Pico W heeft ook wi-fi, maar dit geldt niet voor 
+elke versie van de RPI. Om data van een API naar je RPI Pico 
+zonder wi-fi te krijgen, moet je via seriële verbinding data 
+naar je Pi sturen. Pepijn heeft hier een scriptje 
+`serial_data_sending.py` voor geschreven, dat je ter inspiratie kan gebruiken.
