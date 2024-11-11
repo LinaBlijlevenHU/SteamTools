@@ -2,22 +2,27 @@
 
 Deze repository bevat een aantal voorbeelden en helper-modules voor project Steam. Elke tool wordt even apart behandeld in deze README, zodat je zelf de onderdelen uit kunt kiezen die je wil gebruiken.
 
-## GUI's
+## Techniek voor je app
 
-Voor Steam kun je meerdere technieken gebruiken om een grafische user interface (GUI) 
+Voor Steam kun je meerdere technieken gebruiken om een applicatie met grafische user interface (GUI) 
 op te bouwen.
 
-1. TKinter: dit is een library die standaard bij Python geleverd wordt. 
-Hiermee maak je makkelijk interfaces die op veel verschillende apparaten kunnen draaien.
-2. Flask web app: Flask is een Python-library die speciaal gemaakt is om webapplicaties op te 
-zetten. Deze is gebruiksvriendelijk om te leren en populair binnen Python.
-3. Bootstrap: met Bootstrap kun je makkelijk een grafische gebruikersinterface bouwen d.m.v.
-HTML/CSS en JavaScript.
+1. [TKinter](https://www.pythonguis.com/tutorials/create-gui-tkinter/): dit is een library die standaard bij Python geleverd wordt. 
+Hiermee maak je makkelijk gebruikersinterfaces die op veel verschillende apparaten kunnen draaien.
+2. [Flask web app](https://flask.palletsprojects.com/en/stable/): Flask is een Python-library die speciaal gemaakt is om webapplicaties op te 
+zetten. Deze is gebruiksvriendelijk om te leren en populair binnen Python. 
+Hiervoor kun je makkelijk verschillende pagina's aanmaken met routes, waar je makkelijk HTML-templates aan kunt koppelen.
+3. [Bootstrap](https://www.getbootstrap.com/): met Bootstrap kun je makkelijk een grafische gebruikersinterface bouwen d.m.v.
+HTML/CSS en JavaScript. Het is ook te gebruiken in combinatie met Flask.
+
+Bootstrap richt zich vooral op vormgeving, terwijl Flask meer bedoeld is voor de 
+*back-end*, ofwel de achterliggende logica van een project. TKinter is vooral geschikt voor het bouwen van software 
+voor specifieke apparaten en is de eerste keuze binnen de HU voor beginners.
 
 Binnen Project Steam mag je zelf kiezen welke technologie je gebruikt. Ook andere technologieën zijn 
 mogelijk in overleg met je docenten.
 
-Zie ook het [startersproject voor Flask](https://github.com/LinaBlijlevenHU/flask-base-project).
+Zie ook het [startersproject voor Flask](https://github.com/LinaBlijlevenHU/flask-base-project) (opgezet door Lina).
 
 ## Data naar de PI sturen
 
@@ -90,4 +95,11 @@ of een geplaatste opmerking positief of negatief is.
   'compound': 0.431       // Compounded score
 }
 ```
+
+## Andere Bronnen
+
+### Styling
+
+- De [Bulma](https://bulma.io/) library bevat een aantal voorgestijlde 
+componenten, die je kunt inzetten binnen je eigen project.
 
