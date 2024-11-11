@@ -17,6 +17,8 @@ HTML/CSS en JavaScript.
 Binnen Project Steam mag je zelf kiezen welke technologie je gebruikt. Ook andere technologieën zijn 
 mogelijk in overleg met je docenten.
 
+Zie ook het [startersproject voor Flask](https://github.com/LinaBlijlevenHU/flask-base-project).
+
 ## Data naar de PI sturen
 
 De Raspberry PI Pico W heeft ook wi-fi, maar dit geldt niet voor 
