@@ -15,6 +15,7 @@ zie het voorbeeldje onderaan. Je kunt deze file ook runnen.
 
 @author     Lina Blijleven (@LinaBlijlevenHU op GitHub)
 """
+from tkinter.scrolledtext import example
 from typing import Optional
 
 import requests
@@ -108,4 +109,4 @@ if __name__ == "__main__":
 
     # Print some information about the response
     print(f"API responded with {example_response.status_code}")
-    print(f"JSON response:\n{example_response.json()}")
+    print(f"JSON response:\n{example_response.json() if example_response.status_code == 200 else None}")
